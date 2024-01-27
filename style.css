@@ -1,0 +1,238 @@
+body {
+    background-image: url(background.png);
+  }
+  
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: navy;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: red;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: green;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+  
+  /* Logo */
+  #bg {
+    background-image: url(app.jpg);
+    background-size: 1550px;
+  }
+
+  .logo {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border-color: black;
+    padding: 5px;
+  }
+
+  .name {
+    text-decoration: none;
+    font-family: Comic Sans MS;
+    text-transform: capitalize;
+    text-shadow: 7px 7px black;
+    text-align: center;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    10% {color: black;}
+    20% {color: blue;}
+    30% {color: darkorange;}
+    40% {color: forestgreen;}
+    50% {color: crimson;}
+    60% {color: white;}
+    70% {color: yellow;}
+    80% {color: slateblue;}
+    90% {color: aqua;}
+    100% {color: lime;}
+  
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+  }
+  
+  /* Shake */
+  .logo:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+      transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+      transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+      transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+      transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+      transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+      transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+      transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+      transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+      transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+      transform: translate(1px, -2px) rotate(-1deg);
+    }
+  }
+  
+  /* Name */
+  
+  .icon-bar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+  }
+  
+  .icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: grey;
+  }
+  
+  .active {
+    background-color: #04aa6d;
+  }
+  
+  .discord {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .solar {
+    height: 40px;
+    width: 40px;
+  }
+  
+  hr {
+    width: 0%;
+    height: 0%;
+  }
+  
+  .w3-xxxlarge {
+    font-family: "Tangerine", serif;
+  }
+  
+  .w3-sofia {
+    font-family: Sofia, cursive;
+  }
+  
+  #footer {
+    background-color: black;
+    text-align: left;
+    color: white;
+    font-size: medium;
+    padding: 50px;
+  }
+  
+  #about {
+    border-radius: 40%;
+  }
+
+  #youtube {
+    border-radius: 40%;
+    background-image: url(colorful.jpg);
+    color: white;
+  }
+  
+  #milestone {
+    border-radius: 30%;
+    background-image: url(bg.png);
+  }
+  
+  #old {
+    border-radius: 20%;
+    background-image: url(colorful.jpg);
+  }
+  
+  #NU {
+    border-radius: 10%;
+  }
+  
+  #app {
+    border-radius: 30%;
+    background-image: url(bg_logo.jpg);
+    background-size: 1350px;
+  }
+
+  #yoo {
+    font-family: fantasy;
+  }

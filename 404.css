@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-size: larger;
+}
+
+.eror {
+    color: red;
+    font-family: Algerian;
+}
+
+.error {
+    color: navy;
+    font-family: Comic Sans Ms;
+}
