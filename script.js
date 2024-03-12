@@ -66,7 +66,7 @@ function setCookie(cname, cvalue, exdays) {
   
   // Typew  Writing effect
   var i = 0;
-  var txt = 'Thank you so so much for 515+ subscribers';
+  var txt = 'Thank you so so much for 875+ subscribers';
   var speed = 90;
   
   function typeWriter() {
